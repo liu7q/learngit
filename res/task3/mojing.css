@@ -1,11 +1,9 @@
 div.bd{
     width:100%;
     float: left;
-    border: 1px solid yellow;
     text-align: center;
 }
 body{
-    border: 1px solid red;
     text-align: center;
     background-color: #68cdd5;
 }
@@ -16,7 +14,7 @@ div.head{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     clear: both;
 }
 div.content{
@@ -26,13 +24,13 @@ div.content{
     float: left;
 }
 div.left{
-    padding: 3em;
+    padding: 1.5em;
     display: inline-block;
     float: left;
     clear: both;
 }
 div.right{
-    padding: 3em;
+    padding: 1.5em;
     display: inline-block;
     float: right;
 }
