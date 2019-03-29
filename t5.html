@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 10px; height: 100%" >
+<head>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
+    <meta name="viewport" content="width=device-with, initial-scale=1.0, height=device-height"  >
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        div{
+            border:1px solid red;
+        }
+        span{
+            display: block;
+            line-height: 4.6rem;
+            text-align: center;
+            vertical-align: middle;
+        }
+        body{
+            flex-direction: column;
+            display: flex;
+            min-height: 100%;
+            max-height: 100%;
+        }
+        .header{
+            flex: 0 0 auto;
+            display: inline-flex;
+            background-color: #5fc0cd;
+            height:5rem;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 1rem;
+        }
+        .header div{
+            width: 10rem;
+            flex-grow: 1;
+            color: #FFFFFF;
+            font-size: 2rem;
+        }
+        .main{
+            border:1px solid black;
+            flex: 1;
+            overflow-y: auto;
+        }
+        .footer{
+            height: 5rem;
+            margin: 1rem;
+            flex: 0 0 auto;
+            display: inline-flex;
+        }
+        .footer .f1{
+            flex-grow: 1;
+            width: 5rem;
+            font-size: 2rem;
+            background-color: #FFFFFF;
+            border-radius: 0.5rem;
+            color: #5fc0cd;
+            border: 0.2rem solid #5fc0cd;
+            margin-right: 0.5rem;
+
+        }
+        .footer .f2{
+            flex-grow: 1;
+            color: #5fc0cd;
+            width: 5rem;
+            font-size: 2rem;
+            background-color: #5fc0cd;
+            border-radius: 0.5rem;
+            color: #FFF;
+            border: 0.2rem solid #5fc0cd;
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <div style="margin-left: 1.5rem"> < </div>
+    <div style="text-align: center">个人主页</div>
+    <div style="margin-right: 1.5rem"></div>
+</header>
+<main  class="main">
+    <div >
+        <ul>
+            <li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>2</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>1</li><li>2</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>2</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>2</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li><li>1</li>
+            <li>1</li><li>1</li><li>1</li>
+
+        </ul>
+    </div>
+</main>
+<footer class="footer">
+    <div class="f1"><span>留言</span></div>
+    <div class="f2"><span>电话联系</span></div>
+</footer>
+</body>
+</html>
