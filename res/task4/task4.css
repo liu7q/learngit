@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +5,6 @@
 body {
     background-color: #eff0f4;
 }
-
 .head {
     margin-bottom: 10rem;
     background-color: #5fc0cd;
@@ -17,13 +15,11 @@ body {
     height: 5rem;
     z-index: 0;
 }
-
 .left {
     position: fixed;
     left:0;
     top: 1.4rem;
 }
-
 .center {
     position: fixed;
     top: 1.4rem;
@@ -33,7 +29,6 @@ body {
     width: 15rem;
     text-align: center;
 }
-
 .right {
     position: fixed;
     top: 1.4rem;
